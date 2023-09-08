@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class moveLR : MonoBehaviour
 {
-
     public float playerSpeed = 1f;
 
     // Start is called before the first frame update
@@ -30,5 +29,6 @@ public class moveLR : MonoBehaviour
         }
 
         transform.position = newPos;
+
     }
 }
