@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 52362647}
   m_Layer: 0
-  m_Name: fireball_P
+  m_Name: fireballSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,6 +315,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72dd37f4dbdb4504cba50cb789f7f6d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireball: {fileID: 1164034081}
+  fireballSpawn: {fileID: 52362647}
 --- !u!1 &735928814
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,15 +10,15 @@ public class shootU : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Input.GetKey(KeyCode.Space))
-        {
-            Instantiate(fireball, fireballSpawn.position, fireballSpawn.rotation);
-        }
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKey(KeyCode.Space))
+        {
+            Instantiate(fireball, fireballSpawn.position, fireballSpawn.rotation);
+        }
     }
 }

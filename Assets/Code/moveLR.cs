@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class moveLR : MonoBehaviour
 {
+    //coached by Lucy in this one!
     public float playerSpeed = 1f;
 
     // Start is called before the first frame update
