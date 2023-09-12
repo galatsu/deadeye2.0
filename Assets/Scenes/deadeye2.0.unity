@@ -166,8 +166,8 @@ GameObject:
   - component: {fileID: 74850742}
   - component: {fileID: 74850744}
   m_Layer: 0
-  m_Name: wall_temp2
-  m_TagString: Untagged
+  m_Name: wall_right
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -461,8 +461,8 @@ GameObject:
   - component: {fileID: 832415228}
   - component: {fileID: 832415227}
   m_Layer: 0
-  m_Name: floor_temp (1)
-  m_TagString: Untagged
+  m_Name: ceiling
+  m_TagString: ceiling
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -572,8 +572,8 @@ GameObject:
   - component: {fileID: 1134764800}
   - component: {fileID: 1134764802}
   m_Layer: 0
-  m_Name: wall_temp
-  m_TagString: Untagged
+  m_Name: wall_left
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -686,7 +686,7 @@ GameObject:
   - component: {fileID: 1195367529}
   - component: {fileID: 1195367531}
   m_Layer: 0
-  m_Name: gravitas_temp
+  m_Name: eyeball
   m_TagString: eyeball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -924,8 +924,8 @@ GameObject:
   - component: {fileID: 1446052902}
   - component: {fileID: 1446052904}
   m_Layer: 0
-  m_Name: floor_temp
-  m_TagString: Untagged
+  m_Name: floor
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1114,8 +1114,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 128753846798395527, guid: d311bfe96d3be8140be22b196438dff7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 465215314862302249, guid: d311bfe96d3be8140be22b196438dff7, type: 3}
       propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823616682109093272, guid: d311bfe96d3be8140be22b196438dff7, type: 3}
+      propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4823616682109093276, guid: d311bfe96d3be8140be22b196438dff7, type: 3}

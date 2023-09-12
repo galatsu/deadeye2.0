@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - projectile
   - eyeball
+  - ceiling
+  - fireball
+  - wall
+  - floor
   layers:
   - Default
   - TransparentFX
