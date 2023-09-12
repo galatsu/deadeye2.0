@@ -9,7 +9,7 @@ public class fireballDestroy : MonoBehaviour
 
         if (collision.gameObject.tag == "eyeball" || collision.gameObject.tag == "ceiling")
         {
-            Debug.Log("hit");
+            //Debug.Log("hit");
             //audio.Play();
             Destroy(gameObject);
         }

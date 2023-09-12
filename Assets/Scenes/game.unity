@@ -414,7 +414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580fa508c56b0b04a895d573626989b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 3
+  playerSpeed: 8
 --- !u!114 &396053612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -967,7 +967,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 71187c01245c646a3a161b342be0a5e7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 93f204d9d2fef4d58955cff7d24a487b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1104,7 +1104,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.5943396, g: 0.52389157, b: 0.38351727, a: 0}
+  m_BackGroundColor: {r: 0.6666667, g: 0.52389157, b: 0.49803922, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

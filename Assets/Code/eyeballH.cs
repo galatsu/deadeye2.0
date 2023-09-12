@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class eyeballH : MonoBehaviour
 {
+    //public Sprite eyeballHit;
+    //public Sprite eyeball;
     public AudioSource audio;
+    //public SpriteRenderer render;
     
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -13,9 +16,15 @@ public class eyeballH : MonoBehaviour
         {
             //Debug.Log("hit");
             audio.Play();
+            //render.sprite = eyeballHit;
+
         } else if (collision.gameObject.tag == "ceiling" || collision.gameObject.tag == "wall")
         {
             Debug.Log("hit");
+
+        } else if (collision.gameObject.tag == "floor")
+        {
+
         }
     }
 }
