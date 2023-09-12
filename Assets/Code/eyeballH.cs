@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class eyeballH : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioSource audio;
+    
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (collision.gameObject.tag == "fireball")
+        {
+            //Debug.Log("hit");
+            audio.Play();
+        } else if (collision.gameObject.tag == "ceiling" || collision.gameObject.tag == "wall")
+        {
+            Debug.Log("hit");
+        }
     }
 }
