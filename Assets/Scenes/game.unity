@@ -829,6 +829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audio: {fileID: 1478952974}
+  failstate: endgame
 --- !u!1 &1446052901
 GameObject:
   m_ObjectHideFlags: 0
