@@ -20,7 +20,7 @@ public class eyeballH : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        render = gameObject.GetComponent<SpriteRenderer>();
+        //render = gameObject.GetComponent<SpriteRenderer>();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
