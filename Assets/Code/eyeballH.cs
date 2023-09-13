@@ -5,17 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class eyeballH : MonoBehaviour
 {
-    //public Sprite eyeballHit;
-    //public Sprite eyeball;
+    public Sprite eyeballHit;
+    public Sprite eyeball;
+    public SpriteRenderer render;
+
     public float push = 10;
     Rigidbody2D rb;
+
     public AudioSource audio1;
     public AudioSource audio2;
+
     public string failstate;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        render = gameObject.GetComponent<SpriteRenderer>();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -25,9 +30,13 @@ public class eyeballH : MonoBehaviour
         {
             //Debug.Log("hit");
             audio1.Play();
-            //render.sprite = eyeballHit;
+            render.sprite = eyeballHit;
 
         }
+        /*else if (collision.transform.CompareTag("fireball"))
+        {
+            
+        }*/
         else if (collision.gameObject.tag == "ceiling")
         {
             Debug.Log("hit");
@@ -49,6 +58,9 @@ public class eyeballH : MonoBehaviour
         else if (collision.gameObject.tag == "floor")
         {
             SceneManager.LoadScene(failstate);
+        } else
+        {
+            render.sprite = eyeball;
         }
     }
 }

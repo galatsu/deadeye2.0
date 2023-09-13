@@ -808,9 +808,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1195367527}
-  - component: {fileID: 1195367526}
   - component: {fileID: 1195367528}
   - component: {fileID: 1195367530}
+  - component: {fileID: 1195367526}
   - component: {fileID: 1195367529}
   - component: {fileID: 1195367531}
   m_Layer: 0
@@ -956,6 +956,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b655f9b5ad6ad4da0db9f6f2736424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eyeballHit: {fileID: -292639609, guid: 49805599073daef439fd855cf7c12168, type: 3}
+  eyeball: {fileID: 468066174, guid: 49805599073daef439fd855cf7c12168, type: 3}
+  render: {fileID: 1195367526}
   push: 5
   audio1: {fileID: 1478952974}
   audio2: {fileID: 1004178963}
